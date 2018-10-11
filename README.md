@@ -5,7 +5,7 @@
     - on windows, redis binaries made available at "REDIS_HOME" 
     - on linux, install redis with `sudo apt install redis-server` 
 
-# Installation instructions for simple-redis
+# Installation
 
 * `pip install --upgrade git+https://hq-git.soartech.com/robert.sheline/simple_redis.git`
 

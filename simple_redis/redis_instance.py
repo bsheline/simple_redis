@@ -12,6 +12,7 @@ from pickle import loads, dumps
 
 import redis
 
+
 class RedisInstance:
     """ Wraps a redis instance, creates server if it doesn't already exist,
     or if force=True
@@ -77,6 +78,7 @@ class RedisInstance:
                                         db=0)
         try:
             self.__setitem__("foo", "bar")
+            self.__delitem__("foo")
         except Exception as e:
             print(e)
             return False

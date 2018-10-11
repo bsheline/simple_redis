@@ -15,7 +15,7 @@ url/port could be an existing server, or a new one:
 `from simple_redis import RedisInstance`\
 `ri = RedisInstance(url='localhost', port=6379)`\
 `ri['a'] = {'b': 'c'}`\
-`print(ri['a']['b'])`\
+`print(ri['a']['b'])`
 
 arbitrary object keys/values:
 

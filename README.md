@@ -1,8 +1,9 @@
 # Requirements
 
 * python 3
-* redis binaries made available at "REDIS_HOME" (unless connecting to a remote server)
-
+* redis server (unless connecting remotely):
+    - on windows, redis binaries made available at "REDIS_HOME" 
+    - on linux, install redis with `sudo apt install redis-server` 
 
 # Installation instructions for simple-redis
 

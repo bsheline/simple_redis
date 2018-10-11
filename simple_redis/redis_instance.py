@@ -54,8 +54,7 @@ class RedisInstance:
         # redis binaries in folder below this file. This doesn't matter if
         # redis instance
         # is assumed to be already running.
-        path = os.environ.get('REDIS_HOME',
-                              os.path.join(os.path.dirname(__file__), 'redis'))
+        path = os.environ.get('REDIS_HOME', os.path.dirname(__file__))
         path = re.compile(r"[\/]").split(
             path)  # fix windows backslash confusion
         self.redis_home = os.path.join(*path)
